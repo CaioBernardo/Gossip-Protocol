@@ -7,7 +7,7 @@ public class SimuladorFofoca {
         }
 
         for (int i = 0; i < 5; i++) {
-            for (int j = 1; j <= 10; j++) {
+            for (int j = 1; j <= 4; j++) {
                 int nextIndex = (i + j) % 5;
                 nodes[i].addNeighbor(nodes[nextIndex]);
             }
